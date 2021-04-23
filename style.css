@@ -106,6 +106,17 @@ a{
 h3{
     text-align: center;
 }
+/* h3::after{
+    content: '';
+    width: 45%;
+    height: 2px;
+    background: #888888;
+    position: absolute;
+    bottom: -16px;
+   
+    
+} */
+
 .produtos-container{
     width: 931px;
     height: 740px;
@@ -118,4 +129,16 @@ left: 285px;
 
     width: 201px;
     height: 350px;
+}
+
+.card-container{
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container{
+    text-align: center;
 }

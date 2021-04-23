@@ -11,7 +11,7 @@ body{
 .header{
     width: 100%;
     height: 300px;
-
+  
     background: #707070 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
@@ -100,4 +100,22 @@ a{
 }
 .checkbox-container input{
     margin-right: 5px;
+}
+
+/* PRODUTOS */
+h3{
+    text-align: center;
+}
+.produtos-container{
+    width: 931px;
+    height: 740px;
+
+    top: 860px;
+left: 285px;
+}
+.card{
+    margin-top: 20px;
+
+    width: 201px;
+    height: 350px;
 }

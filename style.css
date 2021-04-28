@@ -120,9 +120,18 @@ h3{
 .produtos-container{
     width: 931px;
     height: 740px;
-
+    margin: 0 auto;
     top: 860px;
-left: 285px;
+    left: 285px;
+}
+.div-button-produtos{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.button-produtos{
+    width: 260px;
+    height: 39px;
 }
 .card{
     margin-top: 20px;
@@ -136,9 +145,57 @@ left: 285px;
     margin: 0 auto;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
+.card{
+    display: flex;
+    flex-direction: column;
+    
+}
+.card img{
+    width: 200px;
+    height: 150px;
+}
+
+.card img, .card p, .card h4, .card span{
+    margin-bottom: 5px;
+}
+.card .price{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-button{
+    height: 30px;
+}
+/* fformulario */
+form{
+    position: relative;
+    margin-top: 20px;
+}
+
+.form-container form label{
+    margin-left: 10px;
+}
 .form-container{
     text-align: center;
+}
+.form-submit{
+    position: absolute;
+    top: 40px;
+    right: 623px;
+}
+
+.footer{
+    top: 2151px;
+    left: 0px;
+    width: 100%;
+    height: 293px;
+    margin-top: 90px;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;   
+
 }

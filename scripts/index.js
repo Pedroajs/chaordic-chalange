@@ -17,10 +17,10 @@ async function criaCards(){
                 <p>${element.name}</p>
                 <p>${element.description}</p>
                 <span>de:${element.oldPrice}</span>
-                <span>por: ${element.price}</span>
+                <span class="price">por: ${element.price}</span>
 
                 <span>ou 2x de 0,50 centavos</span>
-                <button>comprar</button>
+                <button class="card-button">comprar</button>
             </li>
         `
         return accumulator
@@ -28,5 +28,13 @@ async function criaCards(){
 
     cardContainer.innerHTML = listaDeProdutos;
 }
+
+function maisProdutos(){
+    const cardContainer = document.querySelector(".card-container");
+    cardContainer.innerHTML = criaCards();
+}
 criaCards();
-getApi();
+console.log(
+    getApi()
+
+)
